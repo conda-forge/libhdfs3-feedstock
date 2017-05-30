@@ -23,7 +23,7 @@ requirements:
     - libuuid
     - libxml2 2.9.*
     - krb5
-    - protobuf 3.0.*
+    - protobuf 3.3.*
   run:
     - boost 1.63.*
     - libgsasl
