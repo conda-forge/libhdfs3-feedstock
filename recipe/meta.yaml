@@ -30,7 +30,6 @@ requirements:
   run:
     - boost-cpp 1.64.*
     - libgsasl 1.8.0 1
-    - libgsasl
     - libntlm
     - libuuid
     - libxml2 2.9.*
