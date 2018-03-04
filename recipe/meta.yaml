@@ -20,22 +20,22 @@ build:
 requirements:
   build:
     - cmake
-    - boost-cpp 1.64.*
+    - boost-cpp 1.66.0
     - libgsasl 1.8.0 1
     - libntlm
     - libuuid
     - libxml2 2.9.*
-    - krb5
-    - protobuf 3.3.*
+    - krb5 1.14.*
+    - protobuf 3.5.*
   run:
-    - boost-cpp 1.64.*
+    - boost-cpp 1.66.0
     - libgsasl 1.8.0 1
     - libntlm
     - libuuid
     - libxml2 2.9.*
-    - krb5
+    - krb5 1.14.*
     - curl
-    - protobuf 3.3.*
+    - protobuf 3.5.*
 
 test:
   commands:
