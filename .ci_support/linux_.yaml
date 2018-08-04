@@ -1,0 +1,23 @@
+boost_cpp:
+- 1.67.0
+cxx_compiler:
+- toolchain_cxx
+krb5:
+- '1.14'
+libprotobuf:
+- '3.5'
+libuuid:
+- 2.32.1
+libxml2:
+- '2.9'
+pin_run_as_build:
+  boost-cpp:
+    max_pin: x.x.x
+  krb5:
+    max_pin: x.x
+  libprotobuf:
+    max_pin: x.x
+  libuuid:
+    max_pin: x
+  libxml2:
+    max_pin: x.x

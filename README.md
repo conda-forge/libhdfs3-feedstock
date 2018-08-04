@@ -14,14 +14,16 @@ Summary: A Native C/C++ HDFS Client
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/libhdfs3-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/libhdfs3-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/libhdfs3-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/libhdfs3-feedstock)
-Windows: ![](https://cdn.rawgit.com/conda-forge/conda-smithy/90845bba35bec53edac7a16638aa4d77217a3713/conda_smithy/static/disabled.svg)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/libhdfs3-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/libhdfs3-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/libhdfs3-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/libhdfs3-feedstock)
+![Windows disabled](https://img.shields.io/badge/Windows-disabled-lightgrey.svg)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/libhdfs3/badges/version.svg)](https://anaconda.org/conda-forge/libhdfs3)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/libhdfs3/badges/downloads.svg)](https://anaconda.org/conda-forge/libhdfs3)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-libhdfs3-green.svg)](https://anaconda.org/conda-forge/libhdfs3) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/libhdfs3.svg)](https://anaconda.org/conda-forge/libhdfs3) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/libhdfs3.svg)](https://anaconda.org/conda-forge/libhdfs3) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/libhdfs3.svg)](https://anaconda.org/conda-forge/libhdfs3) |
 
 Installing libhdfs3
 ===================
