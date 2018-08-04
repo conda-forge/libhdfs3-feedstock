@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 mkdir build
-git checkout concat # temporary testing
+# git checkout concat # temporary testing
 cd build
 # export LIBHDFS3_HOME=`pwd`
 if [[ "$OSTYPE" == "darwin"* ]]; then
