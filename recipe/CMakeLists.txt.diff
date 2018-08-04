@@ -1,8 +1,6 @@
-diff --git a/libhdfs3/CMakeLists.txt b/libhdfs3/CMakeLists.txt
-index 4694942..9003212 100644
---- a/libhdfs3/CMakeLists.txt
-+++ b/libhdfs3/CMakeLists.txt
-@@ -20,19 +20,19 @@ FIND_PACKAGE(LibXml2 REQUIRED)
+--- libhdfs3-downstream-2.3.0.orig/libhdfs3/CMakeLists.txt	2018-01-09 16:39:34.000000000 -0200
++++ libhdfs3-downstream-2.3.0/libhdfs3/CMakeLists.txt	2018-08-04 09:12:38.989798154 -0300
+@@ -20,19 +20,19 @@
  FIND_PACKAGE(Protobuf REQUIRED)
  FIND_PACKAGE(KERBEROS REQUIRED)
  FIND_PACKAGE(GSasl REQUIRED)
