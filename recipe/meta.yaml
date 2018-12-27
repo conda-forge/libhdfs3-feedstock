@@ -20,8 +20,10 @@ build:
 requirements:
   build:
     - cmake
-    - boost-cpp
+    - "{{ compiler('c') }}"
+    - "{{ compiler('cxx') }}"
   host:
+    - boost-cpp
     - libgsasl 1.8.*
     - libntlm
     - libprotobuf
