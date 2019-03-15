@@ -17,7 +17,7 @@ docker_image:
 krb5:
 - '1.16'
 libprotobuf:
-- '3.6'
+- '3.7'
 libuuid:
 - 2.32.1
 libxml2:
