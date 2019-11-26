@@ -13,7 +13,7 @@ source:
       - CMakeLists.txt.diff
 
 build:
-  number: 1007
+  number: 1008
   # This package is a dependency of hdfs3, which is primarily used with HDFS on Linux.
   skip: True  # [win]
 
