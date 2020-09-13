@@ -1,0 +1,35 @@
+boost_cpp:
+- 1.72.0
+c_compiler:
+- gcc
+c_compiler_version:
+- '7'
+channel_sources:
+- conda-forge,defaults
+channel_targets:
+- conda-forge main
+cxx_compiler:
+- gxx
+cxx_compiler_version:
+- '7'
+docker_image:
+- condaforge/linux-anvil-comp7
+krb5:
+- '1.16'
+libprotobuf:
+- '3.13'
+libuuid:
+- 2.32.1
+libxml2:
+- '2.9'
+pin_run_as_build:
+  boost-cpp:
+    max_pin: x.x.x
+  krb5:
+    max_pin: x.x
+  libuuid:
+    max_pin: x
+  libxml2:
+    max_pin: x.x
+target_platform:
+- linux-64
