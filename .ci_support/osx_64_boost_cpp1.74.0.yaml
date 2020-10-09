@@ -15,7 +15,7 @@ cxx_compiler:
 cxx_compiler_version:
 - '10'
 krb5:
-- '1.16'
+- 1.17.1
 libprotobuf:
 - '3.13'
 libuuid:
