@@ -5,7 +5,7 @@ boost_cpp:
 c_compiler:
 - clang
 c_compiler_version:
-- '10'
+- '11'
 channel_sources:
 - conda-forge,defaults
 channel_targets:
@@ -13,11 +13,11 @@ channel_targets:
 cxx_compiler:
 - clangxx
 cxx_compiler_version:
-- '10'
+- '11'
 krb5:
 - 1.17.1
 libprotobuf:
-- '3.13'
+- '3.14'
 libuuid:
 - 2.32.1
 libxml2:
@@ -35,3 +35,6 @@ pin_run_as_build:
     max_pin: x.x
 target_platform:
 - osx-64
+zip_keys:
+- - c_compiler_version
+  - cxx_compiler_version
