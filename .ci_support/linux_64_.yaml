@@ -1,5 +1,5 @@
 boost_cpp:
-- 1.72.0
+- 1.74.0
 c_compiler:
 - gcc
 c_compiler_version:
@@ -19,7 +19,7 @@ docker_image:
 krb5:
 - 1.17.1
 libprotobuf:
-- '3.14'
+- '3.15'
 libuuid:
 - 2.32.1
 libxml2:
@@ -38,3 +38,5 @@ target_platform:
 zip_keys:
 - - c_compiler_version
   - cxx_compiler_version
+- - cdt_name
+  - docker_image
