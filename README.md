@@ -3,7 +3,7 @@ About libhdfs3
 
 Home: https://github.com/PivotalRD/libhdfs3
 
-Package license: Apache 2.0
+Package license: Apache-2.0
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/libhdfs3-feedstock/blob/master/LICENSE.txt)
 
@@ -143,4 +143,5 @@ Feedstock Maintainers
 * [@koverholt](https://github.com/koverholt/)
 * [@martindurant](https://github.com/martindurant/)
 * [@mrocklin](https://github.com/mrocklin/)
+* [@xhochy](https://github.com/xhochy/)
 
