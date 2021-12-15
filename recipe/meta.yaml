@@ -22,6 +22,7 @@ requirements:
     - cmake
     - "{{ compiler('c') }}"
     - "{{ compiler('cxx') }}"
+    - make
   host:
     - boost-cpp
     - libgsasl 1.8.*
