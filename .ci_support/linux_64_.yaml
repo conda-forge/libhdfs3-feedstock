@@ -1,5 +1,5 @@
 boost_cpp:
-- 1.74.0
+- 1.78.0
 c_compiler:
 - gcc
 c_compiler_version:
@@ -27,12 +27,6 @@ libxml2:
 pin_run_as_build:
   boost-cpp:
     max_pin: x.x.x
-  krb5:
-    max_pin: x.x
-  libuuid:
-    max_pin: x
-  libxml2:
-    max_pin: x.x
 target_platform:
 - linux-64
 zip_keys:
