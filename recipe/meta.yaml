@@ -23,14 +23,17 @@ requirements:
     - "{{ compiler('c') }}"
     - "{{ compiler('cxx') }}"
     - make
+    - sed
   host:
     - boost-cpp
+    - libabseil
     - libgsasl 1.8.*
     - libntlm
     - libprotobuf
     - libuuid
     - libxml2
     - krb5
+    - openssl
   run:
     - boost-cpp
     - libgsasl 1.8.*
