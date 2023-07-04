@@ -13,7 +13,7 @@ source:
       - CMakeLists.txt.diff
 
 build:
-  number: 1023
+  number: 1024
   # This package is a dependency of hdfs3, which is primarily used with HDFS on Linux.
   skip: True  # [win]
 
@@ -23,14 +23,17 @@ requirements:
     - "{{ compiler('c') }}"
     - "{{ compiler('cxx') }}"
     - make
+    - sed
   host:
     - boost-cpp
+    - libabseil
     - libgsasl 1.8.*
     - libntlm
     - libprotobuf
     - libuuid
     - libxml2
     - krb5
+    - openssl
   run:
     - boost-cpp
     - libgsasl 1.8.*
